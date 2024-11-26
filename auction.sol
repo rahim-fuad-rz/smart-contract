@@ -9,7 +9,7 @@ contract AdvancedAuction is Ownable {
     address public highestBidder;
     uint public highestBid;
     uint public auctionEndTime;
-    uint public extensionTime = 5 minutes;  // Extension time for auction when bid is placed near auction end
+    uint public extensionTime = 5 minutes;
     bool public auctionEnded;
     
     // Mapping to store refunds for users who were outbid
